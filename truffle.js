@@ -22,14 +22,14 @@ module.exports  = {
     },
     ropsten: {
       provider: ropstenProvider,
-      gas: 200000,
-      gasPrice: web3.toWei("5", "gwei"),
+      gas: 460000,
+      gasPrice: web3.toWei("10", "gwei"),
       network_id: "3",
     },
     mainnet: {
       provider: mainNetProvider,
-      gas: 200000,
-      gasPrice: web3.toWei("5", "gwei"),
+      gas: 4000000,
+      gasPrice: web3.toWei("10", "gwei"),
       network_id: "1",
     }
   }
